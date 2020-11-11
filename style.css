@@ -97,18 +97,6 @@ section .detailSkills .personal .item span:first-child {
   width: 80px;
 }
 
-section .detailSkills .keyword1 {
-  /* background: rgb(0, 192, 145); */
-  color: rgb(0, 192, 145);
-  position: relative;
-  z-index: 1;
-  text-shadow: 0 0 2px rgb(149, 168, 163);
-}
-
-.keyword1:hover {
-  cursor: pointer;
-}
-
 .personal .item span:last-child::before {
   content: ":";
   margin-right: 10px;
@@ -207,4 +195,14 @@ main {
 }
 .company-p {
   margin-top: -10px;
+}
+
+.detail.contact1 > div {
+  margin-left: -5px;
+
+  margin-top: 10px;
+}
+.detail.contact1 div a {
+  font: 14px/1.5 Arial;
+  color: #666;
 }
